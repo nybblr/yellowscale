@@ -597,8 +597,8 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
 
 /* Header */
 #header {
-  background: #FFC214;
-  color: #ffefc4;
+  background: #fab900;
+  color: #fdedbf;
   height: 100%;
   position: fixed;
   text-align: center;
@@ -610,9 +610,9 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     #header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
       color: #ffffff; }
   #header header p {
-    color: #ffe6a1; }
+    color: #fce299; }
   #header a {
-    color: #ffefc4; }
+    color: #fdedbf; }
     #header a:hover {
       color: #ffffff !important; }
   #header > header {
@@ -625,7 +625,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
       font-size: 1.75em;
       margin: 0; }
     #header > header p {
-      color: #ffefc4;
+      color: #fdedbf;
       font-style: italic;
       margin: 1em 0 0 0; }
   #header > footer {
@@ -637,13 +637,13 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     #header > footer .icons {
       margin: 0; }
       #header > footer .icons li a {
-        color: #ffe6a1; }
+        color: #fce299; }
   #header > nav ul {
     list-style: none;
     margin: 0;
     padding: 0; }
     #header > nav ul li {
-      border-top: solid 2px #ffc82b;
+      border-top: solid 2px #fabf19;
       display: block;
       padding: 0; }
       #header > nav ul li a {
@@ -659,7 +659,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
         text-decoration: none; }
         #header > nav ul li a.active {
           background: #fff;
-          color: #FFC214 !important; }
+          color: #fab900 !important; }
       #header > nav ul li:first-child {
         border-top: 0; }
 

@@ -44,7 +44,7 @@
 	$color-border3:				#e0e0e0;
 	$color-border3-bg:			#eaeaea;
 	
-	$color-header-bg:			$color-accent-bg;
+	$color-header-bg:			darken($color-accent-bg, 5%);
 	$color-header-fg-bold:		$color-accent-fg-bold;
 	$color-header-fg:			mix($color-header-bg, $color-header-fg-bold, 25%);
 	$color-header-fg-light:		mix($color-header-bg, $color-header-fg-bold, 40%);
