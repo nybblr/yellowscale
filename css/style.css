@@ -606,6 +606,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
   text-align: center;
   top: 0;
   width: 23em;
+  overflow-y: auto;
   right: 0; }
   #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
     color: #ffffff; }
@@ -631,10 +632,7 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
       font-style: italic;
       margin: 1em 0 0 0; }
   #header > footer {
-    bottom: 0;
-    left: 0;
     padding: 2em;
-    position: absolute;
     width: 100%; }
     #header > footer .icons {
       margin: 0; }

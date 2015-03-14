@@ -853,6 +853,8 @@ $size-header: 23em;
 		top: 0;
 		width: $size-header;
 
+    overflow-y: auto;
+
 		@if $side-header == 'right' {
 			right: 0;
 		}
@@ -904,10 +906,10 @@ $size-header: 23em;
 		}
 
 		> footer {
-			bottom: 0;
-			left: 0;
+			// bottom: 0;
+			// left: 0;
 			padding: 2em;
-			position: absolute;
+			// position: absolute;
 			width: 100%;
 			
 			.icons {
