@@ -357,6 +357,8 @@ input[type="radio"] + label:before {
       border-radius: 100%;
       display: block;
       width: 100%; }
+  .image.logo {
+    width: 100%; }
 
 /* List */
 ol {
@@ -677,16 +679,6 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     border-top: 0; }
 
 /* One */
-#one:before {
-  background-image: url('../images/banner.jpg');
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  display: block;
-  height: 15em;
-  width: 100%; }
-
 /* Footer */
 #footer {
   background: #fafafa;
