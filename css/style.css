@@ -677,6 +677,16 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
     border-top: 0; }
 
 /* One */
+#about:before {
+  background-image: url('../images/banner.jpg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  display: block;
+  height: 15em;
+  width: 100%; }
+
 /* Footer */
 #footer {
   background: #fafafa;
