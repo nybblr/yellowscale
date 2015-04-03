@@ -1,6 +1,12 @@
-.PHONY: build
+.PHONY: build static clean
 
-build: $(patsubst sass/%.scss,css/%.css,$(wildcard sass/*))
+build: static $(patsubst sass/%.scss,build/css/%.css,$(wildcard sass/*))
 
-css/%.css: sass/%.scss
+static:
+	cp -r CNAME *.html fonts images css js d build
+
+clean:
+	rm -rf ./build/*
+
+build/css/%.css: sass/%.scss
 	sassc $< > $@
