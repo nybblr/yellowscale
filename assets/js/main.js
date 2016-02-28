@@ -16,6 +16,10 @@
 
 	$(function() {
 
+    $(function() {
+      FastClick.attach(document.body);
+    });
+
 		var	$window = $(window),
 			$body = $('body'),
 			$wrapper = $('#wrapper');
