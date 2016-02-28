@@ -1985,7 +1985,21 @@
 			color: inherit;
 		}
 
+#header nav > ul > li {
+  vertical-align: top;
+}
 
+#header nav > ul > li > a {
+  display: block;
+}
+
+#header nav > ul > li.about > a {
+  background-color: rgb(250, 185, 0);
+}
+
+img.logo {
+  height: 4em;
+}
 
 @media screen and (max-width: 540px) {
   .u-hide-small {
