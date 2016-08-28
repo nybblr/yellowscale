@@ -1945,6 +1945,50 @@ img.logo {
   height: 4em;
 }
 
+#main .thumb.clean:after {
+	background: none;
+}
+#main .thumb>.link {
+		border: 0;
+		position: absolute;
+		background-color: #fab900;
+		left: 0;
+		height: 100%;
+		top: 0;
+		width: 100%;
+		text-align: center;
+		display: table;
+}
+#main .thumb .wrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+#main .thumb>.link p {
+	font-weight: 400;
+	color: #1f2224;
+	margin: 0;
+}
+#main .thumb>.link .icon {
+	color: #1f2224;
+	font-size: 1.5em;
+	margin: 0 0.1em;
+	vertical-align: middle;
+}
+#main .thumb>.link a.icon:hover {
+	color: inherit !important;
+}
+#header nav {
+	line-height: 4.03em;
+}
+#main .thumb .blog-header {
+	font-size: 1.3em;
+}
+#main .thumb .blog-header .logo {
+	position: relative;
+	height: 2em;
+	top: 0.22em;
+}
+
 @media screen and (max-width: 540px) {
   .u-hide-small {
     display: none !important;
