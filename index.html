@@ -63,9 +63,17 @@
         font-size: 5em;
         line-height: 0.9;
       }
+
+      body.disable #wrapper .thumb {
+        pointer-events: none;
+      }
     </style>
   </head>
   <body>
+    <script>
+      document.body.classList.add('disable');
+    </script>
+
     <!-- Wrapper -->
       <div id="wrapper">
 

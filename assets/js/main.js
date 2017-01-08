@@ -5,7 +5,6 @@
 */
 
 (function($) {
-
 	skel.breakpoints({
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
@@ -19,6 +18,8 @@
     $(function() {
       FastClick.attach(document.body);
     });
+
+    document.body.classList.remove('disable');
 
 		var	$window = $(window),
 			$body = $('body'),
