@@ -62,7 +62,7 @@
 			// }
 
 		// Scroll back to top.
-			$window.scrollTop(0);
+			// $window.scrollTop(0);
 
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
