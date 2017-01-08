@@ -33,33 +33,33 @@
 				$body.addClass('touch');
 
 		// Transitions supported?
-			if (skel.canUse('transition')) {
-
-				// Add (and later, on load, remove) "loading" class.
-					$body.addClass('loading');
-
-					$window.on('load', function() {
-						window.setTimeout(function() {
-							$body.removeClass('loading');
-						}, 100);
-					});
-
-				// Prevent transitions/animations on resize.
-					var resizeTimeout;
-
-					$window.on('resize', function() {
-
-						window.clearTimeout(resizeTimeout);
-
-						$body.addClass('resizing');
-
-						resizeTimeout = window.setTimeout(function() {
-							$body.removeClass('resizing');
-						}, 100);
-
-					});
-
-			}
+			// if (skel.canUse('transition')) {
+      //
+			// 	// Add (and later, on load, remove) "loading" class.
+			// 		$body.addClass('loading');
+      //
+			// 		$window.on('load', function() {
+			// 			window.setTimeout(function() {
+			// 				$body.removeClass('loading');
+			// 			}, 100);
+			// 		});
+      //
+			// 	// Prevent transitions/animations on resize.
+			// 		var resizeTimeout;
+      //
+			// 		$window.on('resize', function() {
+      //
+			// 			window.clearTimeout(resizeTimeout);
+      //
+			// 			$body.addClass('resizing');
+      //
+			// 			resizeTimeout = window.setTimeout(function() {
+			// 				$body.removeClass('resizing');
+			// 			}, 100);
+      //
+			// 		});
+      //
+			// }
 
 		// Scroll back to top.
 			$window.scrollTop(0);
