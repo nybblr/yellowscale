@@ -99,6 +99,7 @@
       .newsletter-subscribe .email {
         color: #fff;
         font-weight: normal;
+        font-size: inherit;
       }
 
       .newsletter-subscribe .email::placeholder {
@@ -117,10 +118,38 @@
       .newsletter-prompt {
         color: #1f2224;
         font-weight: normal;
-        margin-top: 2em;
+        margin-top: 1em;
         margin-bottom: -1em;
         text-transform: none;
         letter-spacing: normal;
+      }
+
+      .thumb.social .link {
+        font-size: 1.1em;
+      }
+
+      @media screen and (max-width: 480px) {
+        .thumb.social .link {
+          font-size: 1.3em;
+        }
+      }
+
+      .thumb.blog .link {
+        font-size: 1.2em;
+      }
+
+      .thumb.blog .wrap {
+        padding: 1.5em;
+      }
+
+      #main .thumb .blog-header {
+        font-size: 1.5em;
+      }
+
+      #main .thumb .blog-header .logo {
+        position: relative;
+        height: 2.4em;
+        top: .3em;
       }
     </style>
   </head>
@@ -152,12 +181,12 @@
               <p></p>
             </article>
 
-            <article class="thumb clean">
+            <article class="thumb clean blog">
               <a href="https://blog.yellowscale.com/" class="link">
                 <div class="wrap">
                   <h1 class="blog-header"><img class="logo" src="images/logo.svg">
                     Blog</h1>
-                  <p>Travel tips, videography and more. <i class="icon fa-caret-right"></i></p>
+                  <p>Travel tips, photography and more.&nbsp;<i class="icon fa-caret-right"></i></p>
                 </div>
               </a>
             </article>
@@ -207,7 +236,7 @@
               <h2>The Italian Way</h2>
               <p></p>
             </article>
-            <article class="thumb clean">
+            <article class="thumb clean social">
               <div class="link">
                 <div class="wrap">
                   <h2 class="newsletter-prompt">Keep up with new adventures!</h2>
